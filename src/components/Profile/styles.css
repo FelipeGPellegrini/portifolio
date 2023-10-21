@@ -1,0 +1,53 @@
+.containerPerfilPicture {
+    display: flex;
+    justify-content: center;
+    perspective: 1000px;
+}
+
+.containerPerfilPicture img {
+    margin-top:30px ;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.475);
+    height: 100%;
+    transition: transform 0.5s;
+}
+
+.containerPerfilPicture img:hover {
+    transform: rotateY(20deg);
+}
+
+.containerImagesTechs > img {
+    width: 60px;
+}
+
+.techs {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.techs h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 16px;
+    color: #f8f8f2;
+}
+
+.containerImagesTechs img {
+    margin-right: 16px;
+    transition: all, 0.5s;
+}
+
+.containerImagesTechs img:hover {
+    scale: 120%;
+}
+
+.projectLink {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.projectLink h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #BD93F9;
+}

@@ -1,0 +1,23 @@
+:root {
+  --background-color: #282a36;
+  --current-color: #44475a;
+  --selection-color: #BD93F9;
+  --text-color: #f8f8f2;
+  --comment-color: #6272a4;
+  --string-color: #50fa7b;
+  --number-color: #BD93F9;
+  --keyword-color: #FF79C6;
+  --variable-color: #8BE9FD;
+  --function-color: #FF5555;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #44475a;
+}

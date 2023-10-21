@@ -1,0 +1,43 @@
+.containerHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #282a36;
+  }
+
+.containerHeader h1 {
+    color: #f8f8f2;
+}
+
+.containerHeader h2 {
+    color: #BD93F9;
+}
+  
+  .containerHeader h1,
+  .containerHeader h2 {
+    cursor: default;
+    font-family: 'Montserrat', sans-serif;
+    padding: 8px;
+    margin-bottom:8px ;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .containerHeader h1::after,
+  .containerHeader h2::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: transparent;
+    bottom: 0;
+    left: 0;
+    transition: all 0.3s ease;
+  }
+  
+  .containerHeader h1:hover::after,
+  .containerHeader h2:hover::after {
+    background: #BD93F9;
+  }
