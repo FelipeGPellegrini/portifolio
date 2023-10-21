@@ -8,3 +8,28 @@
     text-align: center;
 }
 
+
+
+.backToHome {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.backToHome a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #f8f8f268;
+    transition: all 0.4s;
+}
+
+.textBackToHome a:hover {
+    color: #f8f8f2a3;
+}
+
+.textBackToHome {
+    display: flex;
+    align-items: center;
+}

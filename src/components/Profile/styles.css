@@ -47,7 +47,8 @@
     text-align: center;
 }
 
-.projectLink h2 {
+.projectLink h2 a {
     font-family: 'Montserrat', sans-serif;
     color: #BD93F9;
+    text-decoration: none;
 }

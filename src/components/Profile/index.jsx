@@ -1,5 +1,6 @@
 import "./styles.css"
 import { BiLinkExternal } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 const index = () => {
   return (
@@ -17,7 +18,7 @@ const index = () => {
         </div>
       </div>
       <div className="projectLink">
-        <h2>Projetos <BiLinkExternal/></h2>
+        <h2><Link to="/projetos">Projetos <BiLinkExternal/></Link></h2>
       </div>
     </div>
   )

@@ -1,0 +1,37 @@
+.containerFooter {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #282a36;
+}
+
+.socialIcons {
+    margin: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.socialIcons img {
+    width: 40px;
+    margin: 8px;
+}
+
+.textFooter {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.backToTop {
+    text-decoration: none;
+    color: #f8f8f268;
+    transition: all 0.4s;
+}
+
+.backToTop:hover {
+    color: #f8f8f2a3;
+}
