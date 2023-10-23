@@ -26,3 +26,17 @@
     margin-top: 16px;
     color: #f8f8f2;
 }
+
+@media (max-width: 500px) {
+    .infoProject img {
+        display: none;
+    }
+
+    .infoProject {
+        text-align: center;
+    }
+
+    .infoProject h2{
+        margin-top: 20px;
+    }
+  }
