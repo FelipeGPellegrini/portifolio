@@ -4,7 +4,7 @@ const index = () => {
   return (
         <div className="containerHeader">
             <h1 id="name">Felipe Pellegrini</h1>
-            <h2>Desenvolvedor Front-end</h2>
+            <h2>Desenvolvedor FullStack</h2>
         </div>
   )
 }
