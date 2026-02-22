@@ -1,4 +1,3 @@
-import React from "react";
 import "./hero.scss";
 import { TypingEffect } from "../../store/typing-effect";
 import foto from "../../assets/foto-pc.jpg";
