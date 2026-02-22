@@ -1,0 +1,69 @@
+.container-header {
+    background-color: $bg-elements;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $text-main;
+    position: relative;
+    z-index: 100;
+
+    .container-logo {
+        img {
+            max-width: 80px;
+        }
+    }
+
+    .desktop-only {
+        display: block;
+
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+
+    .mobile-only {
+        display: none;
+
+        @media (max-width: 768px) {
+            display: block;
+        }
+    }
+
+    .menu-options {
+        ul {
+            li {
+                padding-left: 20px;
+                display: inline;
+                transition: color 0.3s ease;
+
+                &:hover {
+                    color: $purple-hover;
+                }
+            }
+        }
+    }
+
+    .hamburguer-btn {
+        background: transparent;
+        color: $text-main;
+    }
+
+    .mobile-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: $bg-elements;
+        border-top: 1px solid #323238;
+        padding: 20px;
+
+        ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 24px;
+        }
+    }
+}
