@@ -1,7 +1,8 @@
 .container-hero {
     .container-hello {
         margin-top: 30px;
-        height: 80vh;
+        min-width: 80vh;
+
         h1 {
             text-align: center;
         }
