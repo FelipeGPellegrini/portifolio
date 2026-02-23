@@ -6,17 +6,12 @@ export const menuOptions = [
     },
     {
         id: 2,
-        label: "#Tecnologias",
-        link: "#tecnologias",
-    },
-    {
-        id: 3,
         label: "#Projetos",
         link: "#projetos",
     },
     {
-        id: 4,
+        id: 3,
         label: "#GitHub",
-        link: "",
+        link: "https://github.com/FelipeGPellegrini",
     },
 ];

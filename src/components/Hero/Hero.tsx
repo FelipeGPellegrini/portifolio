@@ -21,17 +21,18 @@ function Hero() {
                     </p>
                 </div>
                 <div className="container-btn">
-                    <button type="button" className="btn">
-                        <strong>Explorar</strong>
-                        <div id="container-stars">
-                            <div id="stars"></div>
-                        </div>
-
-                        <div id="glow">
-                            <div className="circle"></div>
-                            <div className="circle"></div>
-                        </div>
-                    </button>
+                    <a href="#sobre">
+                        <button type="button" className="btn">
+                            <strong>Explorar</strong>
+                            <div id="container-stars">
+                                <div id="stars"></div>
+                            </div>
+                            <div id="glow">
+                                <div className="circle"></div>
+                                <div className="circle"></div>
+                            </div>
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
