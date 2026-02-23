@@ -1,4 +1,3 @@
-import React from "react";
 import { Icon } from "@iconify/react";
 import { projectsData } from "./projects-data";
 import "./projects.scss";
