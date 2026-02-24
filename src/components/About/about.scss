@@ -71,6 +71,10 @@ $bg-cards-hover: #29292e;
                     }
                 }
             }
+
+            @media (max-width: 390px) {
+                grid-template-columns: repeat(1, 1fr);
+            }
         }
     }
 
